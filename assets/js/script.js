@@ -62,6 +62,18 @@ for (let i = 0; i < searchTogglers.length; i++) {
 }
 
 
+// Get the button element
+const myButton = document.getElementById("myButton");
+
+// Get the text element
+const myText = document.getElementById("myText");
+
+// Add event listener to the button
+myButton.addEventListener("click", function() {
+  // Update the text
+  myText.textContent = "feels awkard but i like my chances gg...we're so back";
+  window.open("https://forms.gle/1jfvJS1T5EjxfMZA8");
+});
 
 /**
  * whishlist button toggle
